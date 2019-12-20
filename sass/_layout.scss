@@ -1,0 +1,222 @@
+
+main{
+    clear: both;
+}
+
+@media (min-width:600px){
+    body{
+    padding: 0 100px;
+}
+}
+
+@media (min-width:1500px){
+    body{
+    padding: 0 200px;
+}
+}
+
+@media (min-width:600px){
+    .skill-page{ display: grid;
+    grid-gap:40px;
+    grid-template-columns: 1fr 1fr;
+
+    }
+    .page-title{
+        grid-column: 1/-1;
+          text-align: center;
+         color: #369;
+    }
+
+    .resources{grid-column: 1/-1;}
+    .study-skills{
+    display: grid;
+    grid-gap:40px;
+        grid-template-columns: 1fr 1fr;}
+
+    }
+ .attractor{ grid-column: 1/-1;
+         font-size:30px;
+         color: #369;
+         text-align: center; }
+
+  .intro{text-align: center;
+        font-size: 15px;
+     color: #369;}
+  .second__image{ grid-column: 1/-1;
+    margin-top: 35px;
+   }
+.smart{grid-column: 1/-1;
+    text-align: center;
+    color:chocolate;}
+     .foot{color: #3cb371;}
+    .wis{color: darkorange;}
+    .word{color: darkorange;}
+    .paragraph{color: #369;}
+
+@media (min-width:900px){
+    .skill-page{ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 30px 0px 30px;
+    grid-gap: 40px 90px;
+    text-align: justify;
+        }
+
+    .about-page{ display: grid;
+    grid-gap:40px;
+        grid-template-columns: 1fr 1fr;
+        }
+    .second__image{ grid-column:2/-1;
+    margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    .intro{text-align: center;
+        font-size: 15px;
+     color: #369;}
+    .study-skills{
+    grid-template-columns:  1fr 1fr 1fr;
+    }
+    .featuredcredit{  display: grid;
+    grid-gap:40px;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 50px;}
+    .pagetitle{margin-top: 100px;}
+
+.page-title {
+     padding-left: 125px;
+        padding-right: 125px;
+    margin-top: 50px;
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 30px;
+    color: #369;
+}
+    .about-page{ margin: 50px 30px 0px 30px;
+    grid-gap: 0 90px;
+    text-align: justify;}
+
+ .attractor{ grid-column: 1/-1;
+         padding-left: 125px;
+        padding-right: 125px;
+         font-size:30px;
+         color: #369;
+         text-align: center; }
+.smart{grid-column: 1/-1;
+    text-align: center;
+    color:chocolate;}
+.what{ grid-column: 1/-1;
+margin-top: 10px;
+margin-right: 250px;}
+.why-1{padding-top: 50px;}
+.why-2{padding-top: 50px;}
+.tips-1{padding-top: 50px;}
+.p{text-align: justify;
+ }
+   .how-con {margin-top: 50px;}
+    .pod1 {margin-top: 50px;}
+    .pod2 {margin-top: 50px;}
+    .hometitile{grid-column: 1/-1;
+    text-align: center;}
+    .downloads{grid-column: 1/-1;}
+.who{grid-column: 1/-1;
+
+    }.what-retrieval{grid-column: 1/-1;
+
+    padding-right: 450px;}
+    .tips-dua{margin-top: 50px;
+     }
+    .foot{color: #3cb371;}
+    .wis{color: darkorange;}
+    .word{color: darkorange;}
+    .paragraph{color: #369;}
+    .tips-con{margin-top: 50px;}
+
+    .how1{margin-top: 50px;}
+    .how2{margin-top: 50px;}
+    .tips-elab1{margin-top: 50px;}
+.license{margin: 20px 20px;}
+.designed{margin: 0 20px;}
+}
+
+.topnav {
+    background-color: #3cb371;
+    overflow: hidden;
+}
+
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.topnav h1 {
+
+    margin: 0;
+    padding: 0;
+
+
+    font-family: sans-serif;
+}
+
+
+.topnav ul li {
+    float: left;
+    text-align: center;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #369;
+    color: white;
+}
+
+
+.topnav .icon {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .topnav li:not(:first-child) {
+        display: none;
+    }
+
+    .topnav li.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
